@@ -1,0 +1,27 @@
+/* Css do Bootstrap */
+@import url("bootstrap/dist/css/bootstrap.min.css");
+
+body {
+    
+    background: #5b98df;
+    background: linear-gradient(90deg, #5b98df 0%, #5b98df 33%, #1f74d4 85%, #2075d6 100%);
+}
+
+.navbar{
+    background-color: #295a92;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05); 
+    transition: transform 0.2s ease-in-out; 
+   
+  }
+
+  .card {
+    background-color: rgba(255, 255, 255, 0); 
+    border: none;
+  }
+
+  
+  
